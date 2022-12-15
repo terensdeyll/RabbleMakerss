@@ -1,0 +1,47 @@
+/***************************/
+/* Our Event Photo */
+/***************************/
+.Oureventphoto{
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 800px;
+  }
+  .nav-list {
+    list-style-type: none;
+    position: right;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  .nav-link:link,
+  .nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: none;
+    color: #555;
+    transition: all 0.3s;
+    letter-spacing: -0.9px;
+  }
+  
+  .nav-link:hover,
+  .nav-link:active {
+    color: #164985;
+  }
+  .home-link:link,
+  .home-link:visited {
+    text-decoration: none;
+    color: #000;
+  }
+  .dropdown-menu {
+    position: absolute;
+    right: 28rem;
+    top: 6rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
