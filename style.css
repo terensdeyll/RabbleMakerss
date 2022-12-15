@@ -74,7 +74,6 @@
 }
 
 .dropdown-menu {
-  position: relative;
   position: absolute;
   right: 29rem;
   top: 6rem;
@@ -87,7 +86,8 @@
   list-style-type: none;
   background-color: white;  
   width: 14rem;
-
+position: relative;
+top: -40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
