@@ -1,0 +1,86 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #333;
+  font-family: 'Comfortaa';
+  font-weight: 400;
+}
+
+/**************************/
+/* REUSABLE CONTAINER */
+/**************************/
+
+.container {
+  max-width: 140rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+/**************************/
+/* REUSABLE HEADINGS */
+/**************************/
+
+.primary-heading {
+  color: #cf711f;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.secondary-heading,
+.primary-heaading {
+  color: #cf711f;
+  margin-bottom: 0.6rem;
+}
+
+.secondary-heading {
+  font-size: 3.2rem;
+}
+
+.tertiary-heading {
+  font-size: 1.6rem;
+  color: #cf711f;
+}
+
+/**************************/
+/* REUSABLE CLASSES */
+/**************************/
+
+.content-img {
+  width: 40rem;
+  text-align: center;
+}
+
+.padding {
+  padding: 1.8rem 3.2rem 1.8rem 3.2rem;
+}
+
+.grid-list {
+  display: grid;
+  grid-template-columns: 3.6rem 1fr;
+}
+
+/**************************/
+/* REUSABLE FLEX */
+/**************************/
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.center {
+  text-align: center;
+}

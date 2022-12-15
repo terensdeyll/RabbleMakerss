@@ -1,0 +1,381 @@
+/******************************/
+/* NAVIGATION SECTION */
+/******************************/
+
+.header {
+  z-index: 1;
+  position: relative;
+  position: fixed;
+  width: 100%;
+}
+
+.sticky-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color:#fff;
+  padding: 1.2rem 4.8rem;
+}
+
+.nav-list {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-transform: none;
+  color: #555;
+  transition: all 0.3s;
+  letter-spacing: -0.9px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #cf711f;
+}
+
+.home-link:link,
+.home-link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+/******************************/
+/* DROPDOWN SECTION*/
+/******************************/
+
+.drop-link:link,
+.drop-link:visited {
+  font-family: 'Comfortaa';
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: all 0.3s;
+  padding: 1.6rem;
+  width: 100%;
+  text-transform: none;
+}
+
+.drop-link:hover,
+.drop-link:active {
+  background-color: #fff;
+  color: #cf711f;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 35rem;
+  top: 6rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.drop-list {
+  list-style-type: none;
+  background-color: white;  
+  width: 14rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover .dropdown-menu {
+  opacity: 1;
+  top: 4.5rem;
+  pointer-events: all;
+  color: #cf711f;
+}
+
+/******************************/
+/* MAIN SECTION*/
+/******************************/
+
+.streaming {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.definition,
+.types,
+.platforms,
+.analysis,
+.needs,
+.characteristics {
+  padding-bottom: 1.2rem;
+}
+
+.grid-icon {
+  color: #cf711f;
+  margin-top: 0.4rem;
+}
+
+.icon {
+  color: #cf711f;
+}
+
+/******************************/
+/* LIST SECTION */
+/******************************/
+
+.types-list,
+.platform-list,
+.needs-list {
+  list-style-type: none;
+  margin-left: 2.4rem;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.analysis-list,
+.charact--list {
+  list-style-type: none;
+}
+
+.charact--list {
+  font-size: 1.8rem;
+  margin-left: 4.4rem;
+  list-style-type: disc;
+}
+
+.analysis-list {
+  line-height: 2;
+}
+
+.analysis-list,
+.needs-list {
+  font-size: 1.8rem;
+  margin-left: 2.4rem;
+  list-style-type: none;
+}
+
+.list {
+  padding-bottom: 1.4rem;
+}
+
+.flex-list {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+/******************************/
+/* HERO SECTION */
+/******************************/
+
+.hero-section {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/backgrounf.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 6.4rem;
+}
+
+.hero-heading {
+  z-index: 1;
+  text-align: center;
+  height: 100vh;
+
+  padding-top: 46rem;
+  font-size: 12.6rem;
+  color: #fff;
+}
+
+/******************************/
+/* DATA SECTION */
+/******************************/
+
+.section-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  row-gap: 3.2rem;
+
+  margin-top: 4.8rem;
+  margin-bottom: 5.6rem;
+}
+
+.type-box,
+.platform-box,
+.analysis-box {
+  width: 40rem;
+  height: 70rem;
+  border-radius: 9px;
+  box-shadow: 0 1.4rem 4.4rem rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: all 0.4s;
+  /* border: 1px solid #000; */
+}
+
+.type-box:hover,
+.platform-box:hover,
+.analysis-box:hover {
+  transform: translateY(-1.2rem);
+}
+
+/******************************/
+/* TEAM SECTION */
+/******************************/
+
+.team-section {
+  height: 50vh;
+}
+
+.team-heading {
+  font-size: 5.6rem;
+  color: #000;
+  text-align: center;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 5.6rem;
+
+  overflow: hidden;
+  margin-top: 9.6rem;
+}
+
+.ter2,
+.rosen2,
+.charlie,
+.kevin,
+.johanne {
+  width: 20rem;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.charlie {
+  background-position: center;
+  background-size: cover;
+}
+
+.name,
+.role {
+  color: #999;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.name {
+  margin-top: 1.8rem;
+}
+
+/*********************/
+/* FOOTER */
+/*********************/
+
+.footer {
+  background-color:#030a26;
+  padding: 6.4rem;
+  margin-top: 9.6rem;
+}
+
+.email:link,
+.email:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.email:hover,
+.email:active {
+  color: #fff;
+}
+
+.footer-heading {
+  color: #fff;
+}
+
+.emails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 2.4rem 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+}
+
+/***************************/
+/* TABS SECTION */
+/***************************/
+
+.box-container {
+  height: 35rem;
+  position: relative;
+  padding: 6.4rem;
+  border-radius: 11px;
+  box-shadow: 0 1.4rem 4.4rem rgba(0, 0, 0, 0.15);
+}
+
+.tab-btn {
+  font-size: 2.4rem;
+  background-color: #cf711f;
+  color: #fff;
+  font-family:'Comfortaa';
+  font-weight: bold;
+  padding: 1.2rem;
+  transition: all 0.3s;
+  border: none;
+  border-radius: 16px;
+}
+
+.charact-btn {
+  position: absolute;
+  left: 30rem;
+}
+
+.active {
+  color: #000;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 3px #cf711f;
+}
+
+.tabs {
+  position: absolute;
+  top: -3rem;
+  right: 83rem;
+}
+
+.tab-btn:hover {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 3px #cf711f;
+  color: #000;
+}
+
+.needs {
+  margin-top: 1.6rem;
+
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  column-gap: 4.4rem;
+  align-items: center;
+}
+
+.characteristics {
+  display: none;
+  grid-template-columns: 25rem 1fr;
+  row-gap: 3.6rem;
+  align-items: center;
+}
