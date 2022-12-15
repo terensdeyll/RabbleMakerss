@@ -388,7 +388,7 @@ top: -40px;
 }
 .h3-goal{
   position: inherit;
-  font-family: 'comfortaa';
+  font-family:'comfortaa';
   text-align: justify;
   position: relative;
   left: 300px;
@@ -399,4 +399,16 @@ top: -40px;
  width: 300px;
  left: 900px;
  bottom: 90px;
+}
+.secondary-heading{
+  position: inherit;
+  text-align: center;
+  color:#164985 ;
+  margin-bottom: 30px;
+}
+.min{
+  position: inherit;
+  text-align: center;
+  font-family:'comfortaa';
+  margin-bottom: 20px;
 }
