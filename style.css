@@ -415,5 +415,72 @@ top: -40px;
 .yutub{
   position: relative;
   width: 200px;
-  left: 569px;
+  left: -150px;
+  height: 110px;
+}
+.twitch{
+  position: relative;
+  width: 200px;
+  left: -100px;
+  height: 110px;
+}
+.facebook{
+  position: relative;
+  width: 200px;
+  left: -70px;
+  height: 120px;
+}
+.Instagram{
+  position: relative;
+  width: 200px;
+  left: -50px;
+  height: 110px;
+}
+.Streamyard{
+  position: relative;
+  width: 200px;
+  left: 0px;
+  height: 110px;
+}
+.Dacast{
+  position: relative;
+  width: 200px;
+  left: 10px;
+  height: 110px;
+}
+.Wirecast{
+  position: relative;
+  width: 200px;
+  left: 0px;
+  height: 110px;
+}
+.Streamshark{
+  position: relative;
+  width: 200px;
+  left: 75px;
+  height: 110px;
+}
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.yotab{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yotablink{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 200px;
+  align-items: center;
+  color: floralwhite;
+}
+i{
+  display: flex;
+  align-items: center;
 }
