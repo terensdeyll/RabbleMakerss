@@ -470,17 +470,17 @@ html{
   justify-content: center;
   align-items: center;
 }
-.yotablink{
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-  text-align: center;
-  margin: 10px;
-  line-height: 200px;
-  align-items: center;
-  color: floralwhite;
-}
 i{
   display: flex;
   align-items: center;
+  color: white ;
+}
+.streamlayout{
+  display: flex;
+  justify-content: center;
+  color: #164985;
+}
+.layout1
+.layout2{
+  display: flex;
 }
