@@ -484,3 +484,13 @@ i{
 .layout2{
   display: flex;
 }
+/**SLIDERS***/
+.swiper{
+  width: 80%;
+  height: fit-content;
+}
+.swiper-slide img{
+  width: 100%;
+
+}
+
